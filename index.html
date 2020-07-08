@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ALYX GAMING</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><a>ALYX</a> GAMING CUSTOMS REGISTRATION</h1>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="UCeraJ0GSOjoL3SaaJdqvSQA" data-layout="full" data-count="default"></div>
+    <!-- Latest news section -->
+	<div class="latest-news-section">
+		<div class="ln-title">RESULTS</div>
+		<div class="news-ticker">
+			<div class="news-ticker-contant">
+				<div class="nt-item"><span class="new">SICARIOS #8 Kills</span>SiegeOp | Maverick | ShooPro | VIVAN</div>
+				<div class="nt-item"><span class="strategy">FLY #4 Kills</span>Beast | Flash | Chipmunk</div>
+				<div class="nt-item"><span class="racing">N i P #8 Kills</span>NooB | PsY | Dd</div>
+			</div>
+		</div>
+	</div>
+	<!-- Latest news section end -->
+    <section class="container py-5">
+      <div class="row">
+        <div class="wrapper">
+          <div class="col-md-12">
+              <ul id="tabs" class="nav nav-tabs nav-fill">
+                <li class="nav-item"><a href="#matchInfo" data-target="#matchInfo" data-toggle="tab" style="font-weight: 800;" class="nav-link">MATCH</a></li>
+                <li class="nav-item"><a href="#registerNow" data-target="#registerNow" data-toggle="tab" style="font-weight: 800;" class="nav-link active">REGISTER</a></li>
+                <li class="nav-item"><a href="#checkSlots" data-target="#checkSlots" data-toggle="tab" style="font-weight: 800;" class="nav-link">SLOTS</a></li>
+              </ul>
+              <div id="tabsContent" class="tab-content border border-top-0 rounded">
+                <div id="matchInfo" class="tab-pane fade">
+                  <div class="col">
+                    <div class="contact">
+                      <form id="matchInfo-append">
+                        
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                  <div id="registerNow" class="tab-pane fade active show">
+                    <div class="col">
+                      <div class="contact">
+                        <form id="contactForm">
+                          <p>
+                            <label>SQUAD NAME</label>
+                            <input type="text" name="name" id="name" required>
+                          </p>
+                          <p>
+                            <label>IGL NAME</label>
+                            <input type="text" name="company" id="igl" required>
+                          </p>
+                          <p>
+                            <label>Email Address</label>
+                            <input type="email" name="email" id="email" required>
+                          </p>
+                          <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone" id="phone" required>
+                          </p>
+                          <p class="full">
+                            <button type="submit">Submit</button>
+                          </p>
+                        </form>
+                        <div class="col-md-12" id='googleSignin'> <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> SIGNIN</a> </div>
+          
+                        <div class="alertSuccess">Registeration Successfull</div>
+                        <div class="alertAlreadyRegistered">Already Registered</div>
+                        <div class="alertFailure">SignIn before Submiting</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="checkSlots" class="tab-pane fade">
+                    <div class="col">
+                      <table class="table">
+                        <thead class="thead-light">
+                          <tr>
+                            <th scope="col">#SLOT</th>
+                            <th scope="col">SQUAD NAME</th>
+                            <th scope="col">IGL</th>
+                          </tr>
+                        </thead>
+                        <tbody id='registeredSquad'>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script data-ad-client="ca-pub-9512683720811334" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</div>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.marquee.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

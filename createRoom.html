@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ALYX GAMING</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><a>ALYX</a> GAMING CUSTOMS REGISTRATION</h1>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="UCeraJ0GSOjoL3SaaJdqvSQA" data-layout="full" data-count="default"></div>
+    <section class="container py-5">
+      <div class="row">
+        <div class="wrapper">
+          <div class="col-md-12">
+            <div class="col">
+                <div class="contact">
+                  <form id="createRoom">
+                    <div class="form-group">
+                    <p>
+                        <label for="map">MAP</label>
+                        <select class="form-control" id="map">
+                            <option value="ERANGLE">ERANGLE</option>
+                            <option value="SANHOK">SANHOK</option>
+                            <option value="MIRAMAR">MIRAMAR</option>
+                            <option value="VIKENDI">VIKENDI</option>
+                            <option value="TDM">TDM</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="type">TYPE</label>
+                        <select class="form-control" id="type">
+                            <option value="TPP">TPP</option>
+                            <option value="FPP">FPP</option>
+                        </select>
+                    </p>
+                    <p>
+                      <label for="pType">PLAYERS TYPE</label>
+                      <select class="form-control" id="pType">
+                          <option value="SQUAD">SQUAD</option>
+                          <option value="DUO">DUO</option>
+                          <option value="SOLO">SOLO</option>
+                      </select>
+                    </p>
+                    <p>
+                      <label>DATE</label>
+                      <input type="date" name="date" id="date" required>
+                    </p>
+                    <p>
+                      <label>TIME</label>
+                      <input type="text" name="time" id="time" required>
+                    </p>
+                    <p class="full">
+                      <button type="submit">Submit</button>
+                    </p>
+                  </form>
+                  <div class="col-md-12" id='googleSignin'> <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> SIGNIN</a> </div>
+                  <div class="alertSuccess">Saved Successfull</div>
+                  <div class="alertFailure">Unable to save data</div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="createRoom.js"></script>
+</body>
+</html>
