@@ -12,3 +12,5 @@ USER FEATURES
 ADMIN FEATURED
 - Changing Event Description
 - Deleting Registered User
+
+![alt text](https://github.com/nihalashetty/Pubg-Event-Handling/Home Info.jpg?raw=true)
