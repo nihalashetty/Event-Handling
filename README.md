@@ -2,6 +2,8 @@
 
 Host Pubg events and handle it easily with auto slot alocation.
 
+Any one can pull and use it.
+
 USER FEATURES
 - View event description.
 - Register to event
