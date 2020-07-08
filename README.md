@@ -3,6 +3,7 @@
 Host Pubg events and handle it easily with auto slot alocation.
 
 Any one can pull and use it.
+Support Developer by donating https://paytm.me/TsCy-BN
 
 USER FEATURES
 - View event description.
