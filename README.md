@@ -13,4 +13,7 @@ ADMIN FEATURED
 - Changing Event Description
 - Deleting Registered User
 
-![Screenshot](HomePage.jpg)
+![Screenshot](HomePage.PNG)
+
+![Screenshot](MatchInfo.PNG)
+
